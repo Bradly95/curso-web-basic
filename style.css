@@ -7,7 +7,6 @@ pero me rompe las configuraciones globales, por eso las fuerzo un poco
 *{
     font-family: 'Red Hat Display', sans-serif !important;
     box-sizing: border-box !important;
-    z-index: 1;
 }
 
 h1{
@@ -33,6 +32,7 @@ button{
     color: white !important;
     padding: 12px 24px !important;
     border-radius: 48px !important;
+    transition: all 0.2s ease !important;
 }
 
 button:hover{
@@ -55,6 +55,7 @@ section{
 .max-width-container{
     max-width: 1080px;
     margin: 0 auto;
+    position: relative;
 }
 
 header{
@@ -101,10 +102,10 @@ header a:hover{
 }
 
 .glower{
-    width: 300px;
-    height: 300px;
+    width: 270px;
+    height: 270px;
     background-color: #E02957;
-    filter: blur(250px);
+    filter: blur(260px);
     position: absolute;
     z-index: 0;
 }
@@ -127,6 +128,7 @@ header a:hover{
 #hero-section .glower:nth-child(1){
     bottom:10%;
     left: 10%;
+    background-color: #7521E0;
 }
 
 #hero-section .glower:nth-child(2){
@@ -169,4 +171,15 @@ header a:hover{
     font-size: 16px !important;
     font-weight: 700 !important;
     color: #E02957;
+}
+
+#how-it-works-section .glower:nth-child(1){
+    bottom:10%;
+    left: 10%;
+}
+
+#how-it-works-section .glower:nth-child(2){
+    top:10%;
+    right: 10%;
+    background-color: #7521E0;
 }
