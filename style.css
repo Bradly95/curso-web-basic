@@ -1,0 +1,38 @@
+*{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+button{
+    background-color: #00D1FF;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+header{
+    background-color: #EEEDED;
+}
+
+.max-width-container{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+#hero-section, #how-it-works-section{
+    background-color: #f8f8f8;
+}

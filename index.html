@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataMaster | Todos tus datos en el mismo sitio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--
+        Este proyecto simula una landing page para un producto ficticio, 
+        en este caso una especie de administrador de analytics (tipo google tag manager).
+
+        Es un onePage donde los botones de navegación conducen a distintas secciones de la landing.
+    -->
+    <header>
+        <img src="./resources/placeholder.png" id="logo">
+        <nav>
+            <ul>
+                <li>
+                    <a>Sobre Nosotros</a>
+                </li>
+                <li>
+                    <a>Cómo funciona</a>
+                </li>
+                <li>
+                    <a>Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="section" id="hero-section">
+            <div class="max-width-container multi-column-layout">
+                <div>
+                    <h1>Todas tus analíticas en un solo lugar</h1>
+                    <p>
+                        Recolecta todas las métricas con una etiqueta maestra, analiza tus datos y toma decisiones certeras
+                    </p>
+                    <button>¡Comienza Hoy!</button>
+                </div>
+                <img src="./resources/placeholder.png" class="one-side-img">
+            </div>
+        </section>
+
+        <section class="section" id="about-us-section"> 
+            <div class="max-width-container">
+                <h2>Somos apasionados y soñadores</h2>
+                <p>
+                    Nuestro grupo de especialistas formados en Data Management adoran diseñar nuevas funcionalidades y 
+                    trabajar para que este sea un producto único
+                </p>
+                <div class="multi-column-layout">
+                    <div class="team-member-card">
+                        <img src="./resources/placeholder.png">
+                        <h3>Nombre del profesional</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Pulvinar nibh tellus ipsum massa fringilla 
+                            arcu tellus. Feugiat bibendum ac id dolor consequat at. Nisl aliquet quis urna.
+                        </p>
+                    </div>
+                    <div class="team-member-card">
+                        <img src="./resources/placeholder.png">
+                        <h3>Nombre del profesional</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Pulvinar nibh tellus ipsum massa fringilla 
+                            arcu tellus. Feugiat bibendum ac id dolor consequat at. Nisl aliquet quis urna.
+                        </p>
+                    </div>
+                    <div class="team-member-card">
+                        <img src="./resources/placeholder.png">
+                        <h3>Nombre del profesional</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur. Pulvinar nibh tellus ipsum massa fringilla 
+                            arcu tellus. Feugiat bibendum ac id dolor consequat at. Nisl aliquet quis urna.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="how-it-works-section">
+            <div class="max-width-container">
+                <h2>¿Cómo funciona?</h2>
+                <p>En solo 3 pasos tomas el control de lo que pasa en tu negocio</p>
+                <div class="multi-column-layout">
+                    <div class="step-card">
+                        <p>01</p>
+                        <p>Configura tu cuenta y obtén tu KEY única</p>
+                    </div>
+                    <div class="step-card">
+                        <p>02</p>
+                        <p>Autoriza tus apps y copia la KEY</p>
+                    </div>
+                    <div class="step-card">
+                        <p>03</p>
+                        <p>¡Ya estás recibiendo datos!</p>
+                    </div>
+                </div>
+                <button>¡Comienza Hoy!</button>
+            </div>
+        </section>
+
+        <section class="section" id="contact-section">
+            <div class="max-width-container">
+                <h2>¿Tienes dudas? Es normal</h2>
+                <p>Hablemos hoy mismo para resolverlas y da el primer paso en el uso efectivo de tus datos</p>
+                <div class="multi-column-layout">
+                    <img src="./resources/placeholder.png">
+                    <form>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" placeholder="Nombre">
+                        <label for="email">Correo</label>
+                        <input type="email" name="email" placeholder="Correo">
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
