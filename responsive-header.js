@@ -13,3 +13,13 @@ function handleClick(){
         navMenu.style.display === 'block' ? navMenu.style.display = 'none' : navMenu.style.display = 'block';
     }
 }
+
+window.addEventListener('resize', handleResize);
+
+function handleResize(){
+    if(window.innerWidth > 991){
+        navMenu.style.display = 'block';
+    }else{
+        navMenu.style.display = 'none';
+    }
+}
