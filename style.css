@@ -176,6 +176,7 @@
                 height: 270px;
                 background-color: #E02957;
                 filter: blur(260px);
+                -webkit-filter: blur(260px);
                 position: absolute;
                 z-index: 0;
             }
