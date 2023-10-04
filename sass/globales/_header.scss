@@ -1,0 +1,86 @@
+header{
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 32px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+
+    ul li{
+        list-style: none;
+    }
+
+    a{
+        color: black;
+        font-weight: 700;
+        text-decoration: none;
+        background-color: rgba(0,0,0,0);
+        padding: 12px 24px;
+        border-radius: 8px;
+
+        &:hover{
+            background-color: rgba(0,0,0,0.1);
+        }
+    }
+}
+
+/* Elementos responsive del header */
+
+@media screen and (min-width: 992px){
+
+    #menu-icon{
+        display: none;
+    }
+
+    #logo{
+        width: 120px;
+        object-fit: contain;
+    }
+
+    header ul{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 32px;
+    }
+
+}
+@media screen and (max-width: 991px){
+
+    #menu-icon{
+        display: block;
+        width: 32px;
+    }
+
+    #logo{
+        width: 96px;
+        object-fit: contain;
+    }
+
+    #nav-menu{
+        display: none;
+        position: absolute;
+        top:68px;
+        right:32px;
+    }
+
+    header ul{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 16px 32px rgba(0,0,0,0.1);
+        padding: 24px;
+        gap: 32px;
+    }
+
+}
+
+/* Fin de los elementos responsive del header */

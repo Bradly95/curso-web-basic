@@ -1,0 +1,96 @@
+*{
+    font-family: $fonts;
+    box-sizing: border-box !important;
+}
+
+h1{
+    font-size: 48px !important;
+    font-weight: 900 !important;
+}
+
+h2{
+    font-size: 32px !important;
+    font-weight: 700 !important;
+}
+
+h3{
+    font-size: 24px !important;
+    font-weight: 700 !important;
+}
+
+button{
+    background-color: #E02957 !important;
+    border: 2px solid rgba(255,255,255,0) !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    color: white !important;
+    padding: 12px 24px !important;
+    border-radius: 48px !important;
+    transition: all 0.2s ease !important;
+
+    &:hover{
+        border: 2px solid rgba(255,255,255,1) !important;
+        box-shadow: 0 12px 32px rgba(224, 41, 87, 0.5) !important;
+    }
+}
+
+/* layout styles globales */
+        /* desktop */
+        @media screen and (min-width:992px) {
+            section{
+                padding: 8em 0;
+                position: relative;
+                overflow: hidden;
+            }
+            
+            .multi-column-layout{
+                display: flex;
+                gap: 48px;
+                justify-content: space-between;
+            }
+            
+            .max-width-container{
+                max-width: 1080px;
+                padding: 0 32px;
+                margin: 0 auto;
+                position: relative;
+            }
+            .glower{
+                width: 270px;
+                height: 270px;
+                background-color: #E02957;
+                filter: blur(260px);
+                position: absolute;
+                z-index: 0;
+            }
+        }
+        /* mobile and tablet */
+        @media screen and (max-width:991px) {
+            section{
+                padding: 4em 0;
+                position: relative;
+                overflow: hidden;
+            }
+            
+            .multi-column-layout{
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+            }
+            
+            .max-width-container{
+                margin: 0 32px;
+                position: relative;
+            }
+            .glower{
+                width: 270px;
+                height: 270px;
+                background-color: #E02957;
+                filter: blur(260px);
+                -webkit-filter: blur(160px);
+                position: absolute;
+                z-index: 0;
+            }
+        }
+
+/* Fin de los layout styles globales */
