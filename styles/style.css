@@ -1,3 +1,11 @@
+@keyframes floatingEffect {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-500px);
+  }
+}
 * {
   font-family: "Red Hat Display", sans-serif !important;
   box-sizing: border-box !important;
@@ -53,8 +61,8 @@ button:hover {
     position: relative;
   }
   .glower {
-    width: 270px;
-    height: 270px;
+    width: 330px;
+    height: 330px;
     background-color: #E02957;
     filter: blur(260px);
     position: absolute;
@@ -175,10 +183,12 @@ header a:hover {
     bottom: 10%;
     left: 10%;
     background-color: #7521E0;
+    animation: floatingEffect 3s ease infinite both alternate;
   }
   #hero-section .glower:nth-child(2) {
-    top: 10%;
+    bottom: 10%;
     right: 10%;
+    animation: floatingEffect 3s ease infinite both alternate-reverse;
   }
   #hero-section img {
     width: 50%;

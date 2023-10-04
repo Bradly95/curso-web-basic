@@ -15,11 +15,13 @@
             bottom:10%;
             left: 10%;
             background-color: #7521E0;
+            animation: floatingEffect 3s ease infinite both alternate;
         }
 
         .glower:nth-child(2){
-            top:10%;
+            bottom:10%;
             right: 10%;
+            animation: floatingEffect 3s ease infinite both alternate-reverse;
         }
 
         img{
