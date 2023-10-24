@@ -1,36 +1,36 @@
 *{
     font-family: $fonts;
-    box-sizing: border-box !important;
+    box-sizing: border-box;
 }
 
-h1{
-    font-size: 48px !important;
-    font-weight: 900 !important;
+.title-text{
+    font-size: 48px;
+    font-weight: 900;
 }
 
-h2{
-    font-size: 32px !important;
-    font-weight: 700 !important;
+.title-text-2{
+    font-size: 32px;
+    font-weight: 700;
 }
 
-h3{
-    font-size: 24px !important;
-    font-weight: 700 !important;
+.title-text-3{
+    font-size: 24px;
+    font-weight: 700;
 }
 
-button{
-    background-color: #E02957 !important;
-    border: 2px solid rgba(255,255,255,0) !important;
-    font-size: 18px !important;
-    font-weight: 700 !important;
-    color: white !important;
-    padding: 12px 24px !important;
-    border-radius: 48px !important;
-    transition: all 0.2s ease !important;
+.primary-button{
+    background-color: #E02957;
+    border: 2px solid rgba(255,255,255,0);
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 48px;
+    transition: all 0.2s ease;
 
     &:hover{
-        border: 2px solid rgba(255,255,255,1) !important;
-        box-shadow: 0 12px 32px rgba(224, 41, 87, 0.5) !important;
+        border: 2px solid rgba(255,255,255,1);
+        box-shadow: 0 12px 32px rgba(224, 41, 87, 0.5);
     }
 }
 
